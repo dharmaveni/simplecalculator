@@ -1,0 +1,92 @@
+body{
+	background-image:  url("../image/Lighthouse.jpg");
+}
+#Calculator{
+	width: 250px;
+	height: 500px;
+	text-align: center;
+	margin:150px auto;
+	background-color: white;
+}
+header{
+	height: 40px;
+	float: right;
+	width: 250px;
+	color: white;
+	background-color: #53c653;	
+}
+header i{
+	float: left;
+	margin-top: 10px;
+}
+header p{
+	float: left;
+	margin-left:65px; 
+	margin-top: 10px;
+}
+#display{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 246px;
+	height: 50px;
+	border-collapse:collapse;
+}
+#keys{
+	width: 50px;
+	height: 40px;
+	margin-left: 3px;
+	margin-top: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #f5f5ef;
+}
+#keys1{
+	margin-top: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	width:107px;
+	height: 40px;
+	margin-left: 3px;
+	background-color: #f5f5ef;
+}
+#keys2{
+	width: 50px;
+	height: 40px;
+	margin-left: 3px;
+	margin-top: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #f5f5ef;
+
+}
+#keys3{
+	width: 50px;
+	height: 100px;
+	margin-left: 3px;
+	margin-top: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #f5f5ef;
+}
+#keys4{
+	width: 50px;
+	height: 50px;
+	margin-left: 3px;
+	margin-top: 7px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #e6005c;
+	color: white;
+	border-radius: 5px;
+}
+#keys5{
+	width: 107px;
+	height: 50px;
+	margin-left: 3px;
+	margin-top: 7px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color:#53c653;
+	border-radius: 5px;
+	color: white;
+}

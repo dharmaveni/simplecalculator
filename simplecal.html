@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>simple Calculator</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="javascript/design.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+<body>
+	<div id="Calculator">
+		<header>
+			<i class="fa fa-bars" style="margin-left:10px"></i>
+			<p>Greenulator</p>
+			<i class="fa fa-cog" style="margin-left:65px"></i>
+		</header>
+		<form id="index">
+			<input type="text" id="display"><br>
+
+			<input type="button" value="^" id="keys" onclick="power()">
+			<input type="button" value="(" id="keys" onclick="addtoscreen('(')">
+			<input type="button" value=")" id="keys" onclick="addtoscreen(')')">
+			<input type="button" value="%" id="keys" onclick="addtoscreen('%')"><br>
+
+			<input type="button" value="7" id="keys" onclick="addtoscreen('7')">
+			<input type="button" value="8" id="keys" onclick="addtoscreen('8')">
+			<input type="button" value="9" id="keys" onclick="addtoscreen('9')">
+			<input type="button" value="/" id="keys" onclick="addtoscreen('/')"><br>
+
+			<input type="button" value="4" id="keys" onclick="addtoscreen('4')">
+			<input type="button" value="5" id="keys" onclick="addtoscreen('5')">
+			<input type="button" value="6" id="keys" onclick="addtoscreen('6')">
+			<input type="button" value="*" id="keys" onclick="addtoscreen('*')"><br>
+
+			<input type="button" value="1" id="keys" onclick="addtoscreen('1')">
+			<input type="button" value="2" id="keys" onclick="addtoscreen('2')">
+			<input type="button" value="3" id="keys" onclick="addtoscreen('3')">
+			<input type="button" value="-" id="keys" onclick="addtoscreen('-')"><br>
+
+			<input type="button" value="0" id="keys1" onclick="addtoscreen('0')">
+
+			<input type="button" value="." id="keys2" onclick="addtoscreen('.')">
+		
+			<input type="button" value="+" id="keys3" onclick="addtoscreen('+')">
+	
+			<input type="button" value="Del" id="keys4" onclick="delete('Del')">
+			
+			<input type="button" value="=" id="keys5" onclick="answer()">
+
+		</form>
+	</div>
+</body>
+</html>
